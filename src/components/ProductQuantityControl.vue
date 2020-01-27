@@ -54,6 +54,7 @@
     .quantity-control {
         position: relative;
         height: 35px;
+        min-width: 80px;
         max-width: 120px;
         text-align: center;
         font-weight: bold;

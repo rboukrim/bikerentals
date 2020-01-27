@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h2 class="page-header">Order Summary</h2>
+        <h2 class="page-header mt-4 text-center">Order Summary</h2>
         <div class="row px-2">
             <div class="col-12 col-md-6">
                 <div class="row justify-content-center mt-5 mb-2" v-if="!cartIsEmpty">

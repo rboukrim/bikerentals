@@ -8,7 +8,7 @@
                         &times;
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body p-0">
                     <ShoppingCartDetails />
                 </div>
                 <div class="modal-footer">

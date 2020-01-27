@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h2 class="page-header">Accessories</h2>
-    <div class="row justify-content-around" id="addons">
+    <h2 class="page-header mt-4 text-center">Accessories</h2>
+    <div class="row justify-content-center" id="addons">
       <Product class="col-10 col-md-4 my-3"
               v-for="product in accessories"
               :key="product.id"
