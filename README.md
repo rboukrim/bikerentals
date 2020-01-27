@@ -1,4 +1,5 @@
-# bikerentals
+# Bike Rentals
+A simple product reservation page for bike rentals.
 
 ## Project setup
 ```

@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <h2 class="page-header">Bikes</h2>
-    <div class="row justify-content-around">
+    <h2 class="page-header">Accessories</h2>
+    <div class="row justify-content-around" id="addons">
       <Product class="col-10 col-md-4 my-3"
-              v-for="product in bikes"
+              v-for="product in accessories"
               :key="product.id"
               :id="product.id"
               :name="product.name"
@@ -11,6 +11,7 @@
               :price="product.price"
               :type="product.product_type" />
     </div>
+
   </div>
 </template>
 
@@ -18,7 +19,7 @@
   import Product from '../components/Product'
 
   export default {
-    name: 'Home',
+    name: 'Accessories',
     components: {
       Product
     },
@@ -27,12 +28,18 @@
         return this.$store.getters.products
       },
 
-      bikes () {
+      accessories () {
         return this.products.filter((product) => {
-            return product.product_type === "bike";
+            return product.product_type === "accessory";
         });
       }
     }
 
   }
 </script>
+
+<style>
+  #addons {
+
+  }
+</style>
