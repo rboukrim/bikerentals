@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export default() => {
   return axios.create({
-    baseURL: `../data`,
+    baseURL: `data`,
     withCredentials: false,
     headers: {
       'Accept': 'application/json',
